@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quicken.Poker.Api", "Quicken.Poker.Api\Quicken.Poker.Api.csproj", "{210B7C52-E728-4C32-AE5B-DD1C0756D230}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quicken.Poker.Dal", "Quicken.Poker.Dal\Quicken.Poker.Dal.csproj", "{84C464CE-BF71-401B-A6CE-5D6CCD5C9185}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quicken.Poker.Core", "Quicken.Poker.Core\Quicken.Poker.Core.csproj", "{F3AB1D83-2D84-458C-8FA3-5998D9B10913}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{210B7C52-E728-4C32-AE5B-DD1C0756D230}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{210B7C52-E728-4C32-AE5B-DD1C0756D230}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{210B7C52-E728-4C32-AE5B-DD1C0756D230}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{210B7C52-E728-4C32-AE5B-DD1C0756D230}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84C464CE-BF71-401B-A6CE-5D6CCD5C9185}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84C464CE-BF71-401B-A6CE-5D6CCD5C9185}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84C464CE-BF71-401B-A6CE-5D6CCD5C9185}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84C464CE-BF71-401B-A6CE-5D6CCD5C9185}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3AB1D83-2D84-458C-8FA3-5998D9B10913}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3AB1D83-2D84-458C-8FA3-5998D9B10913}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3AB1D83-2D84-458C-8FA3-5998D9B10913}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3AB1D83-2D84-458C-8FA3-5998D9B10913}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66678C86-EFC2-4C7A-B77E-E00D7F41BAD2}
+	EndGlobalSection
+EndGlobal
