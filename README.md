@@ -10,18 +10,21 @@ FRANK PICON - .NET Core API for Quicken
 
 Following is the endpoint for this api 
 
-GET https://localhost/pokergame
+**GET https://localhost/pokergame/player/list**
+
 return JSON Payload List<PlayerViewModel>
 
-POST https://localhost/pokergame
+**POST https://localhost/pokergame/player/winner**
+
 ACCEPT JSON Payload PlayersViewModel (which consists of a list of PokerPlayers)
+
 return JSON Payload List<WinnerViewModel> 
 
 NOTES:
 The API can generate its own default 2 players if an empty JSON file is posted. 
 If No payload is sent with players and cards, the api will generate a default player and randomly generate 5 cards and return the players if GET or Winners if POST
 
-FEATURES
+**FEATURES**
 
 -Poker Game can support multiple players
 
