@@ -38,6 +38,7 @@ namespace Quicken.Poker.Core.Services
             {
                 players.Players.Add(GetMockPlayer("Frankie"));
                 players.Players.Add(GetMockPlayer("Johnny"));
+                players.Players.Add(GetMockPlayer("Sammy"));
             }
 
             PokerPlayer winner = GetWinner(players.Players);

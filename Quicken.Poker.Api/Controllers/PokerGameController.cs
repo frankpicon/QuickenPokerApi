@@ -29,6 +29,7 @@ namespace Quicken.Poker.Api.Controllers
         }
 
         [HttpPost]
+        [Route("player/winner")]
         public async Task<GetWinnerViewResult> Post([FromBody] PlayersViewModel request)
         {
             try
@@ -49,6 +50,7 @@ namespace Quicken.Poker.Api.Controllers
 
 
         [HttpGet]
+        [Route("player/list")]
         public async Task<GetPlayerViewResult> Get()
         {
             try
