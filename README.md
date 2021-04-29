@@ -22,6 +22,7 @@ The API can generate its own default 2 players if an empty JSON file is posted.
 If No payload is sent with players and cards, the api will generate a default player and randomly generate 5 cards and return the players if GET or Winners if POST
 
 FEATURES
+
 -Poker Game can support multiple players
 
 -API Winner accepts a list of players along with cards and the Resultset returns a JSON payload of Winner along with list of players who played, all the players cards and each players highest card of their hand
