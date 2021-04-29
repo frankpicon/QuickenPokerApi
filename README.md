@@ -9,10 +9,10 @@ FRANK PICON - .NET Core API for Quicken
 Following is the endpoint for this api 
 
 GET https://localhost/pokergame
-return JSON Payload List<PlayerViewModel
+return JSON Payload List<PlayerViewModel>
 
 POST https://localhost/pokergame
-ACCEPT JSON Payload List<PlayersViewModel>
+ACCEPT JSON Payload PlayersViewModel (which consists of a list of PokerPlayers)
 return JSON Payload List<WinnerViewModel> 
 
 NOTES:
